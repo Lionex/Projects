@@ -11,4 +11,9 @@ function range(start, step, end)
     return array;
 }
 
+function print(x)
+{
+    console.log(x);
+}
+
 })();
