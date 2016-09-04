@@ -47,6 +47,6 @@ var fizzBuzz = function (n) {
     }
 }
 
-range(1,1,100).map(function (n) {return fizzBuzz(n)}).forEach(print);
+range(1,1,100).map(fizzBuzz).forEach(print);
 
 })();
