@@ -4,9 +4,9 @@
 function range(start, step, end)
 {
     var array = [];
-    for (var n = 0; n < end - start; n += step)
+    for (start; start < end; start += step)
     {
-        array[n] = n + start;
+        array.push(start);
     }
     return array;
 }
