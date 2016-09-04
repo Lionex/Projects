@@ -28,4 +28,25 @@ var isFizz = isDivisible(3);
 var isBuzz = isDivisible(5);
 var isFizzBuzz = function (x) { return isFizz(x) && isBuzz(x) };
 
+var fizzBuzz = function (n) {
+    if (isFizzBuzz(n))
+    {
+        return "FizzBuzz";
+    }
+    else if (isFizz(n))
+    {
+        return "Fizz";
+    }
+    else if (isBuzz(n))
+    {
+        return "Buzz";
+    }
+    else
+    {
+        return String(n);
+    }
+}
+
+range(1,1,100).map(function (n) {return fizzBuzz(n)}).forEach(print);
+
 })();
