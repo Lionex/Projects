@@ -16,4 +16,16 @@ function print(x)
     console.log(x);
 }
 
+var isDivisible = function (n)
+{
+    return function (x)
+    {
+        return x % n === 0;
+    }
+}
+
+var isFizz = isDivisible(3);
+var isBuzz = isDivisible(5);
+var isFizzBuzz = function (x) { return isFizz(x) && isBuzz(x) };
+
 })();
