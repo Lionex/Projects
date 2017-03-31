@@ -1,0 +1,20 @@
+name: reldate
+author: Gwen Lofman <glofman@siggraph.org>
+version: 0.1.0
+about: Calculates relative dates
+args:
+    - year:
+        short: y
+        long: year
+        help: Provide relative date in years
+        takes_value: false
+    - month:
+        short: m
+        long: month
+        help: Provide relative date in months
+        takes_value: false
+    - week:
+        short: w
+        long: week
+        help: Provide relative date in weeks
+        takes_value: false

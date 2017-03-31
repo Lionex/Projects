@@ -1,0 +1,8 @@
+[package]
+name = "reldate"
+version = "0.1.0"
+authors = ["Gwen Lofman <Gwen@Lofman.co>"]
+
+[dependencies]
+chrono = "0.3.0"
+clap = {version = "~2.22.1", features = ["yaml"]}
