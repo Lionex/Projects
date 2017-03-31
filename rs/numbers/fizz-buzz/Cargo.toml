@@ -1,0 +1,6 @@
+[package]
+name = "fizz-buzz"
+version = "0.1.0"
+authors = ["Gwen Lofman <Gwen@Lofman.co>"]
+
+[dependencies]
