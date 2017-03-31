@@ -16,6 +16,8 @@ function print(x)
     console.log(x)
 }
 
+isDivisible(2)(4)
+
 var isDivisible = function (n)
 {
     return function (x)
